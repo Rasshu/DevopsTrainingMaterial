@@ -1,0 +1,11 @@
+Part 1 -
+  Applications
+    Rich Client/Desktop App -> Installed, System Resources, 
+            Version Management
+    Thin Client/Web -> Browser + Network Connectivity
+            Round Trip
+    Rich Internet Application - RIA 
+        Browser + Network Connectivity
+
+
+
