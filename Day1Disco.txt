@@ -1,3 +1,7 @@
+Lab 2 - 
+	https://www.g2.com/categories/static-code-analysis 
+	Check tool for managing dependencies for NodeJs
+Lab 1 - 
 Maven/MsBuild Lab
 	https://spring.io/guides/gs/spring-boot/ -> create a spring boot project, observe maven(pom) file and run the application
 	https://learn.microsoft.com/en-us/visualstudio/msbuild/walkthrough-using-msbuild?view=vs-2022
