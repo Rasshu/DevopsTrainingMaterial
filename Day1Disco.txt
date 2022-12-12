@@ -1,3 +1,53 @@
+Maven/MsBuild Lab
+	https://spring.io/guides/gs/spring-boot/ -> create a spring boot project, observe maven(pom) file and run the application
+	https://learn.microsoft.com/en-us/visualstudio/msbuild/walkthrough-using-msbuild?view=vs-2022
+	
+	Option1- from Scratch
+		Lab 1 - Maven
+		Eclipse -> new Workspace -> window -> preferences -> compiler/ installedJRE(jdk)
+		new Maven Project -> G(Day1) A(Day1.demo1) V(0.0.01..)
+		Create a new class (demo.Calc)
+			package demo;
+
+			public class Calc {
+
+				public int add(int i, int j ) {
+					return i+j;
+				}
+				public int divide(String str1, String str2) {
+					int  i = Integer.parseInt(str1);
+					int  j = Integer.parseInt(str2);
+					return i/j;
+				}
+				public static void main(String[] args) {
+					Calc c = new Calc();
+					System.out.println(c.add(20,400));
+					System.out.println(c.divide("100","10"));
+					System.out.println(c.divide("100","0"));
+				}
+			}
+		Run ->maven build -> clean  install package
+
+----------------------
+Part 3 -
+  Virtualization (Containerization)
+
+	Micro Services
+		Uber -> 3 Services
+					1. Search -> os, jdk,tomcat, application
+					2. Book   -> os, .net framework, iis , application
+					3. Payment -> os, node, application
+
+			One/Two Server 
+
+			-> Private Data Center
+				VMWare -> 3 Virtual machines -> 
+						-> + 1 VM  for search
+			-> Cloud
+				AWS/Azure/GCP
+					Intracture as a Service (IaaS)
+
+
 Lab3 - --> https://articles.microservices.com/monolithic-vs-microservices-architecture-5c4848858f59
 	https://perfectial.com/blog/microservices-vs-monoliths/
 
