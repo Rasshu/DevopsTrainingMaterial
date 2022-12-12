@@ -1,3 +1,6 @@
+Lab3 - --> https://articles.microservices.com/monolithic-vs-microservices-architecture-5c4848858f59
+	https://perfectial.com/blog/microservices-vs-monoliths/
+
 Part 2 -https://martinfowler.com/articles/microservices.html
 Development Approach
 	Monolith Applications
