@@ -1,3 +1,20 @@
+Part 2 -https://martinfowler.com/articles/microservices.html
+Development Approach
+	Monolith Applications
+		3 Tier Architecture
+		
+		Presentation -----------Business Logic---------Persistent Logic----------Db
+		Layer					Layer					Layer
+B-------> Servlet/JSP			RMI/EJB					JDBC/Hibernate/JPA
+		  Asp/Asp.net			dll/					ODBC/Entity Framework
+		  
+		jar/zip -> Deploy on Weblogic/WebSphere/JBoss
+							 IIS 
+	
+	Micro Services 
+		multiple small units to talk to each other
+		
+		
 Part 1 -
   Applications
     Rich Client/Desktop App -> Installed, System Resources, 
