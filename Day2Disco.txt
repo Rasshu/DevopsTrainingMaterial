@@ -1,3 +1,48 @@
+
+Tomcat Lab1 and Lab2 
+Lab2 - enable ssl for tomcat
+        create the self signed certificate
+                keytool -genkeypair -alias myalias1 -keysize 1024 -validity 365 -keypass weblogic -storepass weblogic -keystore test.jks
+                give rest of the details, chek test.jks in current folder
+                
+         copy test.jks in C:\work\apache-tomcat-9.0.52\conf
+         modify conf/server.xml to include
+                  <Connector
+                        protocol="org.apache.coyote.http11.Http11NioProtocol"
+                        port="8443"
+                        maxThreads="200"
+                        scheme="https"
+                        secure="true"
+                        SSLEnabled="true"
+                        keystoreFile="/conf/test.jks"
+                        keystorePass="weblogic"
+                        clientAuth="false"
+                        sslProtocol="TLS"/>
+         Restart tomcat(catalina stop, catalina start)
+         
+         browser 
+                http://localhost:8443/demo
+         
+Lab1 - create folder demo
+                create index.html 
+                  <html>
+                  <h1>From TOmcat</h1>
+                  <h1><a href="link1.html">Link</a></h1>
+                  </html>
+                create link1.html
+                   <html>
+                    <h1>Linked Page</h1>
+                  </html>
+        Copy created folder in C:\work\apache-tomcat-9.0.52\webapps ( assuming tomcat is in C:\work\apache-tomcat-9.0.52)
+        cmd>cd C:\work\apache-tomcat-9.0.52\bin
+        cmd>catalina start 
+                if "Neither the JAVA_HOME nor the JRE_HOME environment variable is defined" error comes, set JAVA_HOME
+                        set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_05
+        cmd>catalina start 
+        browser -> http://localhost:8080/demo                
+
+----------------------------------
+IIS Lab1 and Lab2
 Lab 2 - Enable ssl
         click on machine name -> server certificates - 
           create self signed certificate
