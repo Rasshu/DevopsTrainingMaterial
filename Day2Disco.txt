@@ -1,3 +1,34 @@
+Lab 5 - 
+
+Working Files - aa.txt, bb.txt
+
+To shift working files to stage area
+	git add aa.txt
+
+to shift state files to branches
+	git commit -m "first commit"
+	
+Submit changes from local repo to remote repo
+	git remote add addr1 https://github.com/Vaishali-Tapaswi/tmp01
+	git push addr1
+		->> will give error 
+			Support for password authentication was removed on August 13, 2021
+
+			
+Generate token
+	On web site -> click on login, settings, Developer settings
+			Personal access tokens  ->classic
+	New personal access token (classic) 
+				note - test13Dec2022
+				Select scopes - select repo 
+				generate token and copy token 
+
+Submit changes from local repo to remote repo
+	git remote remove addr1
+	git remote add addr1 https://{{token}}@github.com/Vaishali-Tapaswi/tmp01
+	git push addr1
+		Success -> check remote repo
+                
 Lab 4 - Create an empty folder on local machine (c:\ttt\s1)
         create two files aa.txt, bb.txt
         c:\ttt\s1>git init
