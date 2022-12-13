@@ -1,0 +1,36 @@
+Lab 2 - Enable ssl
+        click on machine name -> server certificates - 
+          create self signed certificate
+            certname - 
+            hosting - web site hosting
+            
+        edit your website
+          binding -> add -> https -
+                            hostname -localhost
+                            ssl certificate - select the one created in earlier 
+          browse web site (ssl) -> adv - continue - confirm certificate details
+            
+Lab1 - WebServers
+      https://en.wikipedia.org/wiki/Web_server - Just first paragraph
+
+      Create a folder c:\...
+        create index.html 
+          <html>
+          <h1>From IIS</h1>
+          <h1><a href="link1.html">Link</a></h1>
+          </html>
+        create link1.html
+           <html>
+            <h1>Linked Page</h1>
+          </html>
+      
+      
+      iis manager-> sites ->Add website
+          sitename = demo1
+          physical path - directory name (created)
+          Binding type  - http , host name - localhost or (127.0.0.1)    
+          select - start website immediately
+      Select site -> browse
+      
+ 
+      
