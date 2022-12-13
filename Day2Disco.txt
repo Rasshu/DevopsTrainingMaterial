@@ -1,3 +1,8 @@
+Lab 7 - Create branch ( browser / cmd->git branch - help)
+	add different file in each branch.
+	create merge request and complete merge operation
+		check files 
+	
 Lab 6 - 
 	create a new repo (tmp2) using web site
 	in empty folder on localmachine
