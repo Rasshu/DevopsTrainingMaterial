@@ -1,4 +1,11 @@
-
+Lab3 - Login to Github
+        create a new repo with readme
+                create one more file with some contents
+                modify file - commit
+                modify file - commit
+       for repo -check commits
+                difference in file versions
+                check repo at the point of commit
 Tomcat Lab1 and Lab2 
 Lab2 - enable ssl for tomcat
         create the self signed certificate
