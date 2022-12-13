@@ -1,3 +1,16 @@
+Lab 4 - Create an empty folder on local machine (c:\ttt\s1)
+        create two files aa.txt, bb.txt
+        c:\ttt\s1>git init
+                observe .git hidden folder create in current directory
+        c:\ttt\s1>git add aa.txt
+        c:\ttt\s1>git commit -m "message - first commit"
+        c:\ttt\s1>git status
+        modify aa.txt to add one more line
+        c:\ttt\s1>git status
+        c:\ttt\s1>git add aa.txt
+        c:\ttt\s1>git commit -m "message - second commit"
+        c:\ttt\s1>git status
+
 Lab3 - Login to Github
         create a new repo with readme
                 create one more file with some contents
