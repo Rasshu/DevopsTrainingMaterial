@@ -1,3 +1,7 @@
+Kab 8 - Jenkins 
+	https://www.jenkins.io/doc/book/pipeline/
+	https://plugins.jenkins.io/
+
 Lab 7 - Create branch ( browser / cmd->git branch - help)
 	add different file in each branch.
 	create merge request and complete merge operation
