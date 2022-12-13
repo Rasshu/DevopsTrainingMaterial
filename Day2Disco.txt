@@ -1,5 +1,16 @@
-Lab 5 - 
+Lab 6 - 
+	create a new repo (tmp2) using web site
+	in empty folder on localmachine
+		git clone url
+		--> will create .git folder
+	create a file(t1.java) in created folder 
+	add, commit
+	push ...
+		observe using webapp 
 
+	Modify t1.java from both the repositories
+	try invoking push
+Lab 5 - 
 Working Files - aa.txt, bb.txt
 
 To shift working files to stage area
