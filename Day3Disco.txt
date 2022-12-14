@@ -1,3 +1,10 @@
+Lab 7 - new Project -> import -> github (https://github.com/Vaishali-Tapaswi/mymavenproj)
+  image - maven:3.8.5-eclipse-temurin-8
+  build -> mvn package
+    artifacts to download war file.
+  Create an issue -> assign to your self -> check you todo list 
+
+
 Lab 6 - GitLab runner configuration
   Download - https://docs.gitlab.com/runner/install/
   create a folder on c:\gitlab-runner and copy the file
