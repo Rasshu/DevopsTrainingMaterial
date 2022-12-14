@@ -1,3 +1,23 @@
+Lab 3 - in projects
+ Create .java file -> HelloWorld.java
+  Modify pipleline to compile code and run the same
+       HelloWorld.java
+         public class HelloWorld{
+          public static void main(String[] args){
+              System.out.println("Hello World 1.0!!!");
+          }
+         }
+    compile 
+      javac HelloWorld.java
+    run
+      java HelloWorld
+   Observe Error for java -> compilation not possible as image is ruby
+   ------------> modify pipeline/job to include image
+       build-job:       # This job runs in the build stage, which runs first.
+         image: java:8
+   ---> successful
+   Modify HelloWorld.java and observe execution of pipeline started
+   
 Lab 2 -  Go to repo
     Create Pipeline -> editor 
       edit something- save (automatically invoked)
