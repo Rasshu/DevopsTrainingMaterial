@@ -1,4 +1,22 @@
-Lab 3 - in projects
+Lab 4 - in same project
+ Keep javac in build stage and shift java in test stage
+ -Error -> for image in test state (add image tag to that stage)
+        -> class not found
+             create an issue for classnot found, assign to yourself
+Modify pipeline, build stage to include artifact section
+  artifacts:
+    untracked: false
+    when: on_success
+    expire_in: 30 days
+    paths:
+      - "Demo1.class"  
+ run 
+  success, observe message for creating/download artifacts
+ for pipeline -> download artifact
+ 
+ close issue
+           
+Lab 3 - in same project
  Create .java file -> HelloWorld.java
   Modify pipleline to compile code and run the same
        HelloWorld.java
