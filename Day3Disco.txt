@@ -1,3 +1,16 @@
+Lab 5 - varaiables
+  1. Declared in yml file
+    
+      build-job:       # This job runs in the build stage, which runs first.
+        stage: build
+        variables:
+           USERNAME: "...."
+
+     use  => echo "$USERNAME, $CI_PROJECT_DIR
+2. Declared in project config/settings
+  settings-> ci/cd -> variables -> new variable -> 1. just protected 2. Masked 3. combination
+    create passsword variable and print 
+
 Lab 4 - in same project
  Keep javac in build stage and shift java in test stage
  -Error -> for image in test state (add image tag to that stage)
