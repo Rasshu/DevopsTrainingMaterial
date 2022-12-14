@@ -1,3 +1,10 @@
+Lab 2 -  Go to repo
+    Create Pipeline -> editor 
+      edit something- save (automatically invoked)
+      Observe -> stages / Jobs -> Run -> Monitor (Jobs -> Console -> Docker Containers)
+    edit pipeline to create one more job in deploy stage 
+        run and check
+
 Lab1 -  GitLab Web
   Group -> Create group -> tmpdemo1
   Project -> new project in group - proj1
