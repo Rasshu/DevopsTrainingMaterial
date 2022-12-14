@@ -1,0 +1,6 @@
+Lab1 -  GitLab Web
+  Group -> Create group -> tmpdemo1
+  Project -> new project in group - proj1
+    Repo -> initialize with readme
+      Observe -> Web IDE
+        Check gitlab features -> repository feature 
